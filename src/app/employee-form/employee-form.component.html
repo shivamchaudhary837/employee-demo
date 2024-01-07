@@ -1,0 +1,9 @@
+<form (ngSubmit)="saveEmployee()">
+    <label for="firstName">First Name:</label>
+    <input [(ngModel)]="employee.firstName" name="firstName" required />
+  
+    <!-- Similar fields for lastName and email -->
+  
+    <button type="submit">Save</button>
+  </form>
+  
